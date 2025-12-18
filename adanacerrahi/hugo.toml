@@ -1,0 +1,23 @@
+baseURL = "http://adanacerrahi.com/"
+languageCode = "tr-tr"
+title = "Genel Cerrahi Dersleri"
+theme = "ananke"
+
+[params]
+  author = "Ed"
+  description = "4. sınıf öğrencileri için Genel Cerrahi ders portalı"
+
+[[menu.main]]
+  name = "Önsöz"
+  url = "/posts/preface/"
+  weight = 1
+
+[[menu.main]]
+  name = "Lecture 01"
+  url = "/posts/lecture-01-introduction/"
+  weight = 2
+
+[[menu.main]]
+  name = "Lecture 02"
+  url = "/posts/lecture-02-appendicitis/"
+  weight = 3
