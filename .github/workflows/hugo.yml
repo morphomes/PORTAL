@@ -47,7 +47,7 @@ jobs:
         run: hugo --minify --baseURL "https://morphomes.github.io/PORTAL/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./adanacerrahi/public
 
