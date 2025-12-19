@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Genel Cerrahi Dersleri</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://adanacerrahi.com/tags/</link>
     <description>Recent content in Tags on Genel Cerrahi Dersleri</description>
     <generator>Hugo</generator>
     <language>tr-tr</language>
     <lastBuildDate>Thu, 18 Dec 2025 22:20:00 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://adanacerrahi.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4. Sınıf</title>
-      <link>http://localhost:1313/tags/4.-s%C4%B1n%C4%B1f/</link>
+      <link>http://adanacerrahi.com/tags/4.-s%C4%B1n%C4%B1f/</link>
       <pubDate>Thu, 18 Dec 2025 22:20:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/4.-s%C4%B1n%C4%B1f/</guid>
+      <guid>http://adanacerrahi.com/tags/4.-s%C4%B1n%C4%B1f/</guid>
       <description></description>
     </item>
     <item>
       <title>Genel Cerrahi</title>
-      <link>http://localhost:1313/tags/genel-cerrahi/</link>
+      <link>http://adanacerrahi.com/tags/genel-cerrahi/</link>
       <pubDate>Thu, 18 Dec 2025 22:20:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/genel-cerrahi/</guid>
+      <guid>http://adanacerrahi.com/tags/genel-cerrahi/</guid>
       <description></description>
     </item>
     <item>
       <title>Tıp Eğitimi</title>
-      <link>http://localhost:1313/tags/t%C4%B1p-e%C4%9Fitimi/</link>
+      <link>http://adanacerrahi.com/tags/t%C4%B1p-e%C4%9Fitimi/</link>
       <pubDate>Thu, 18 Dec 2025 22:20:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/t%C4%B1p-e%C4%9Fitimi/</guid>
+      <guid>http://adanacerrahi.com/tags/t%C4%B1p-e%C4%9Fitimi/</guid>
       <description></description>
     </item>
   </channel>
