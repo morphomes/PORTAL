@@ -1,0 +1,16 @@
+/* Simple three-column layout for the portal homepage */
+:root{--gap:1.5rem;--card-bg:#ffffff;--card-border:#e6e6e6}
+body {font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#111}
+.portal-intro{max-width:900px;margin:2rem auto;padding:0 1rem}
+.modules-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap);max-width:1100px;margin:2rem auto;padding:0 1rem}
+.module-card{background:var(--card-bg);border:1px solid var(--card-border);border-radius:8px;padding:1rem;display:flex;flex-direction:column;align-items:center;text-align:center}
+.module-card img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+.module-title{font-size:1.1rem;font-weight:700;margin:0.75rem 0}
+.module-desc{font-size:0.95rem;color:#444;margin-bottom:0.75rem}
+.module-list{list-style:none;padding:0;margin:0;width:100%;text-align:left}
+.module-list li{padding:0.35rem 0;border-top:1px dashed #eee}
+.module-list a{color:#0b5dd7;text-decoration:none;display:block}
+.module-list a:hover{text-decoration:underline}
+.module-list img.thumb{width:56px;height:40px;object-fit:cover;border-radius:6px;float:left;margin-right:0.6rem}
+.li-summary{clear:both;margin:0.25rem 0 0;color:#555;font-size:0.9rem}
+@media (max-width:900px){.modules-grid{grid-template-columns:1fr;}.module-card img{height:220px}}

@@ -2,30 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:62970/posts/</loc>
     <lastmod>2025-12-21T09:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-12-21T09:00:00+03:00</lastmod>
+    <loc>http://localhost:62970/</loc>
+    <lastmod>2025-12-20T12:30:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/4.-s%C4%B1n%C4%B1f/</loc>
+    <loc>http://localhost:62970/posts/1-acil-cerrahi/</loc>
+    <lastmod>2025-12-20T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/posts/2-batin-cerrahisi/</loc>
+    <lastmod>2025-12-20T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/posts/3-ozellesmis-cerrahi/</loc>
+    <lastmod>2025-12-20T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/posts/travma/</loc>
+    <lastmod>2025-12-20T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/tags/akut-apandisit/</loc>
+    <lastmod>2025-12-20T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/posts/lecture-02-appendicitis/</loc>
+    <lastmod>2025-12-20T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/tags/</loc>
+    <lastmod>2025-12-20T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/tags/tan%C4%B1/</loc>
+    <lastmod>2025-12-20T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/tags/tedavi/</loc>
+    <lastmod>2025-12-20T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/tags/4.-s%C4%B1n%C4%B1f/</loc>
+    <lastmod>2025-12-19T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/tags/genel-cerrahi/</loc>
+    <lastmod>2025-12-19T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/posts/lecture-01-introduction/</loc>
+    <lastmod>2025-12-19T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/tags/t%C4%B1p-e%C4%9Fitimi/</loc>
+    <lastmod>2025-12-19T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:62970/posts/preface/</loc>
     <lastmod>2025-12-18T22:20:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/genel-cerrahi/</loc>
-    <lastmod>2025-12-18T22:20:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/preface/</loc>
-    <lastmod>2025-12-18T22:20:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-18T22:20:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/t%C4%B1p-e%C4%9Fitimi/</loc>
-    <lastmod>2025-12-18T22:20:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/firstpost/</loc>
+    <loc>http://localhost:62970/posts/firstpost/</loc>
     <lastmod>2025-12-18T20:57:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:62970/categories/</loc>
   </url>
 </urlset>

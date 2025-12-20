@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tanı on Genel Cerrahi Dersleri</title>
+    <link>http://localhost:62970/tags/tan%C4%B1/</link>
+    <description>Recent content in Tanı on Genel Cerrahi Dersleri</description>
+    <generator>Hugo</generator>
+    <language>tr-TR</language>
+    <lastBuildDate>Sat, 20 Dec 2025 09:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:62970/tags/tan%C4%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 02: Akut Apandisit</title>
+      <link>http://localhost:62970/posts/lecture-02-appendicitis/</link>
+      <pubDate>Sat, 20 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:62970/posts/lecture-02-appendicitis/</guid>
+      <description>Akut apandisit tanı ve tedavi süreçleri.</description>
+    </item>
+  </channel>
+</rss>

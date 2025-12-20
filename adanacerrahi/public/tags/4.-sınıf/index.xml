@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4. Sınıf on Genel Cerrahi Dersleri</title>
-    <link>http://localhost:1313/tags/4.-s%C4%B1n%C4%B1f/</link>
+    <link>http://localhost:62970/tags/4.-s%C4%B1n%C4%B1f/</link>
     <description>Recent content in 4. Sınıf on Genel Cerrahi Dersleri</description>
     <generator>Hugo</generator>
-    <language>tr-tr</language>
-    <lastBuildDate>Thu, 18 Dec 2025 22:20:00 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/4.-s%C4%B1n%C4%B1f/index.xml" rel="self" type="application/rss+xml" />
+    <language>tr-TR</language>
+    <lastBuildDate>Fri, 19 Dec 2025 09:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:62970/tags/4.-s%C4%B1n%C4%B1f/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 01: Genel Cerrahiye Giriş</title>
+      <link>http://localhost:62970/posts/lecture-01-introduction/</link>
+      <pubDate>Fri, 19 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:62970/posts/lecture-01-introduction/</guid>
+      <description>Cerrahinin tarihsel gelişimi ve temel prensipleri.</description>
+    </item>
     <item>
       <title>Genel Cerrahiye Önsöz</title>
-      <link>http://localhost:1313/posts/preface/</link>
+      <link>http://localhost:62970/posts/preface/</link>
       <pubDate>Thu, 18 Dec 2025 22:20:00 +0300</pubDate>
-      <guid>http://localhost:1313/posts/preface/</guid>
+      <guid>http://localhost:62970/posts/preface/</guid>
       <description>Bu yazı, 4. sınıf öğrencileri için Genel Cerrahi derslerine giriş niteliğinde bir önsöz sunar.</description>
     </item>
   </channel>

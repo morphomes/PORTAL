@@ -1,6 +1,8 @@
-baseURL = "https://morphomes.github.io/PORTAL/"
-languageCode = "tr-tr"
+baseURL = "http://localhost:1313/"
+languageCode = "tr-TR"
 title = "Genel Cerrahi Dersleri"
+#theme = "adanacerrahitheme"
+#theme = "hugo-theme-gallery-main"
 theme = "ananke"
 
 [params]
@@ -8,16 +10,17 @@ theme = "ananke"
   description = "4. sınıf öğrencileri için Genel Cerrahi ders portalı"
 
 [[menu.main]]
-  name = "Önsöz"
-  url = "/posts/preface/"
+  name = "1 - Travma - Acil Cerrahi"
+  url = "/posts/travma/"
   weight = 1
 
 [[menu.main]]
-  name = "Lecture 01"
-  url = "/posts/lecture-01-introduction/"
+  name = "2 - Batın Cerrahi"
+  url = "/posts/2-batin-cerrahisi/"
   weight = 2
 
 [[menu.main]]
-  name = "Lecture 02"
-  url = "/posts/lecture-02-appendicitis/"
+  name = "3 - Özelleşmiş Cerrahi"
+  url = "/posts/3-ozellesmis-cerrahi/"
   weight = 3
+ 

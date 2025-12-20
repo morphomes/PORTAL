@@ -2,31 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Genel Cerrahi Dersleri</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:62970/tags/</link>
     <description>Recent content in Tags on Genel Cerrahi Dersleri</description>
     <generator>Hugo</generator>
-    <language>tr-tr</language>
-    <lastBuildDate>Thu, 18 Dec 2025 22:20:00 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>tr-TR</language>
+    <lastBuildDate>Sat, 20 Dec 2025 09:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:62970/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Akut Apandisit</title>
+      <link>http://localhost:62970/tags/akut-apandisit/</link>
+      <pubDate>Sat, 20 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:62970/tags/akut-apandisit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tanı</title>
+      <link>http://localhost:62970/tags/tan%C4%B1/</link>
+      <pubDate>Sat, 20 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:62970/tags/tan%C4%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tedavi</title>
+      <link>http://localhost:62970/tags/tedavi/</link>
+      <pubDate>Sat, 20 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:62970/tags/tedavi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>4. Sınıf</title>
-      <link>http://localhost:1313/tags/4.-s%C4%B1n%C4%B1f/</link>
-      <pubDate>Thu, 18 Dec 2025 22:20:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/4.-s%C4%B1n%C4%B1f/</guid>
+      <link>http://localhost:62970/tags/4.-s%C4%B1n%C4%B1f/</link>
+      <pubDate>Fri, 19 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:62970/tags/4.-s%C4%B1n%C4%B1f/</guid>
       <description></description>
     </item>
     <item>
       <title>Genel Cerrahi</title>
-      <link>http://localhost:1313/tags/genel-cerrahi/</link>
-      <pubDate>Thu, 18 Dec 2025 22:20:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/genel-cerrahi/</guid>
+      <link>http://localhost:62970/tags/genel-cerrahi/</link>
+      <pubDate>Fri, 19 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:62970/tags/genel-cerrahi/</guid>
       <description></description>
     </item>
     <item>
       <title>Tıp Eğitimi</title>
-      <link>http://localhost:1313/tags/t%C4%B1p-e%C4%9Fitimi/</link>
-      <pubDate>Thu, 18 Dec 2025 22:20:00 +0300</pubDate>
-      <guid>http://localhost:1313/tags/t%C4%B1p-e%C4%9Fitimi/</guid>
+      <link>http://localhost:62970/tags/t%C4%B1p-e%C4%9Fitimi/</link>
+      <pubDate>Fri, 19 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:62970/tags/t%C4%B1p-e%C4%9Fitimi/</guid>
       <description></description>
     </item>
   </channel>

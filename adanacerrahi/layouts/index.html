@@ -1,0 +1,105 @@
+{{ define "main" }}
+  <link rel="stylesheet" href="{{ "css/portal.css" | relURL }}">
+
+  <section class="portal-intro">
+    {{ if .Content }}
+      {{ .Content }}
+    {{ else }}
+      <h1>{{ .Title }}</h1>
+      <p>Hoş geldiniz — 4. sınıf tıp öğrencileri için Genel Cerrahi ders portalı. Aşağıdaki modüllerden birini seçin.</p>
+    {{ end }}
+  </section>
+
+  <section class="modules-grid">
+    <!-- Travma - Acil Cerrahi module -->
+    <article class="module-card">
+      <img src="{{ "images/travma.svg" | relURL }}" alt="Travma - Acil Cerrahi">
+      <div class="module-title">1 - Travma - Acil Cerrahi</div>
+      <div class="module-desc">Travma ve acil cerrahi vakaları, yönetim yaklaşımları.</div>
+      <ul class="module-list">
+        <li><a href="/posts/travma/">Modül ana sayfas</a></li>
+        {{ with .Site.GetPage "section" "posts/travma" }}
+          {{ $travma := .RegularPages }}
+          {{ if gt (len $travma) 0 }}
+            {{ range sort $travma "Date" "desc" }}
+              {{ $thumb := .Params.thumbnail }}
+              {{ $desc := .Params.summary | default .Summary }}
+              <li>
+                <a href="{{ .RelPermalink }}">
+                  {{ with $thumb }}<img src="{{ . | relURL }}" class="thumb" alt="{{ $.Title }} thumbnail">{{ end }}
+                  {{ .Title }}
+                </a>
+                {{ if $desc }}<div class="li-summary">{{ $desc }}</div>{{ end }}
+              </li>
+            {{ end }}
+          {{ else }}
+            <li>Alt ders yok — yeni ders ekleyin.</li>
+          {{ end }}
+        {{ else }}
+          <li>Alt ders yok — yeni ders ekleyin.</li>
+        {{ end }}
+      </ul>
+    </article>
+
+    <!-- Batın Cerrahi module -->
+    <article class="module-card">
+      <img src="{{ "images/batin.svg" | relURL }}" alt="Batın Cerrahi">
+      <div class="module-title">Batın Cerrahi</div>
+      <div class="module-desc">Batın cerrahisi ve akut abdominal patolojiler.</div>
+      <ul class="module-list">
+        <li><a href="/posts/2-batin-cerrahisi/">Modül ana sayfas</a></li>
+        {{ with .Site.GetPage "section" "posts/2-batin-cerrahisi" }}
+          {{ $batin := .RegularPages }}
+          {{ if gt (len $batin) 0 }}
+            {{ range sort $batin "Date" "desc" }}
+              {{ $thumb := .Params.thumbnail }}
+              {{ $desc := .Params.summary | default .Summary }}
+              <li>
+                <a href="{{ .RelPermalink }}">
+                  {{ with $thumb }}<img src="{{ . | relURL }}" class="thumb" alt="{{ $.Title }} thumbnail">{{ end }}
+                  {{ .Title }}
+                </a>
+                {{ if $desc }}<div class="li-summary">{{ $desc }}</div>{{ end }}
+              </li>
+            {{ end }}
+          {{ else }}
+            <li>Alt ders yok — yeni ders ekleyin.</li>
+          {{ end }}
+        {{ else }}
+          <li>Alt ders yok — yeni ders ekleyin.</li>
+        {{ end }}
+      </ul>
+    </article>
+
+    <!-- Özelleşmiş Cerrahi module -->
+    <article class="module-card">
+      <img src="{{ "images/ozellesmis.svg" | relURL }}" alt="Özelleşmiş Cerrahi">
+      <div class="module-title">Özelleşmiş Cerrahi</div>
+      <div class="module-desc">Özel cerrahi alanları ve ileri teknikler.</div>
+      <ul class="module-list">
+        <li><a href="/posts/3-ozellesmis-cerrahi/">Modül ana sayfas</a></li>
+        {{ with .Site.GetPage "section" "posts/3-ozellesmis-cerrahi" }}
+          {{ $oz := .RegularPages }}
+          {{ if gt (len $oz) 0 }}
+            {{ range sort $oz "Date" "desc" }}
+              {{ $thumb := .Params.thumbnail }}
+              {{ $desc := .Params.summary | default .Summary }}
+              <li>
+                <a href="{{ .RelPermalink }}">
+                  {{ with $thumb }}<img src="{{ . | relURL }}" class="thumb" alt="{{ $.Title }} thumbnail">{{ end }}
+                  {{ .Title }}
+                </a>
+                {{ if $desc }}<div class="li-summary">{{ $desc }}</div>{{ end }}
+              </li>
+            {{ end }}
+          {{ else }}
+            <li>Alt ders yok — yeni ders ekleyin.</li>
+          {{ end }}
+        {{ else }}
+          <li>Alt ders yok — yeni ders ekleyin.</li>
+        {{ end }}
+      </ul>
+    </article>
+  </section>
+
+{{ end }}
