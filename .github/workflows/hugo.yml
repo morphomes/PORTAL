@@ -30,13 +30,6 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      # ✅ SINGLE, CLEAN BUILD WITH CONFIG OVERRIDE (no trailing spaces!)
-      - name: Set production baseURL
-        working-directory: ./adanacerrahi
-        run: |
-          echo 'baseURL = "https://morphomes.github.io/portal/"' > config.prod.toml
-
-
         - name: Build Hugo site
   working-directory: ./adanacerrahi
   run: hugo --minify --baseURL "https://morphomes.github.io/portal/"
