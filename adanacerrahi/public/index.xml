@@ -2,66 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Genel Cerrahi Dersleri</title>
-    <link>http://localhost:62970/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Genel Cerrahi Dersleri</description>
     <generator>Hugo</generator>
     <language>tr-TR</language>
-    <lastBuildDate>Sat, 20 Dec 2025 12:00:00 +0300</lastBuildDate>
-    <atom:link href="http://localhost:62970/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Dec 2025 09:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 03: Travma ve Acil Cerrahi</title>
+      <link>http://localhost:1313/posts/lecture-03-trauma/</link>
+      <pubDate>Sun, 21 Dec 2025 09:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/lecture-03-trauma/</guid>
+      <description>Travma hastalarında cerrahi yaklaşım.</description>
+    </item>
     <item>
       <title>1 - Acil Cerrahi</title>
-      <link>http://localhost:62970/posts/1-acil-cerrahi/</link>
+      <link>http://localhost:1313/posts/1-acil-cerrahi/</link>
       <pubDate>Sat, 20 Dec 2025 12:00:00 +0300</pubDate>
-      <guid>http://localhost:62970/posts/1-acil-cerrahi/</guid>
+      <guid>http://localhost:1313/posts/1-acil-cerrahi/</guid>
       <description>&lt;p&gt;Bu sayfa &lt;code&gt;Acil Cerrahi&lt;/code&gt; konusunu kapsar. Aşağıda bu kategoriye ait alt derslerin bağlantılarını ekleyebilirsiniz.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>2 - Batın Cerrahisi</title>
-      <link>http://localhost:62970/posts/2-batin-cerrahisi/</link>
+      <link>http://localhost:1313/posts/2-batin-cerrahisi/</link>
       <pubDate>Sat, 20 Dec 2025 12:00:00 +0300</pubDate>
-      <guid>http://localhost:62970/posts/2-batin-cerrahisi/</guid>
+      <guid>http://localhost:1313/posts/2-batin-cerrahisi/</guid>
       <description>&lt;p&gt;Bu sayfa &lt;code&gt;Batın Cerrahi&lt;/code&gt; konusunu kapsar. Aşağıdaki alt dersler mevcut:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Diğer alt dersleri &lt;code&gt;content/posts/&lt;/code&gt; klasörüne ekleyerek buraya bağlantı verebilirsiniz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3 - Özelleşmiş Cerrahi</title>
-      <link>http://localhost:62970/posts/3-ozellesmis-cerrahi/</link>
+      <link>http://localhost:1313/posts/3-ozellesmis-cerrahi/</link>
       <pubDate>Sat, 20 Dec 2025 12:00:00 +0300</pubDate>
-      <guid>http://localhost:62970/posts/3-ozellesmis-cerrahi/</guid>
+      <guid>http://localhost:1313/posts/3-ozellesmis-cerrahi/</guid>
       <description>&lt;p&gt;Bu sayfa &lt;code&gt;Özelleşmiş Cerrahi&lt;/code&gt; konusunu kapsar. Aşağıda bu kategoriye ait alt derslerin bağlantılarını ekleyebilirsiniz.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Travma - Acil Cerrahi</title>
-      <link>http://localhost:62970/posts/travma/</link>
+      <link>http://localhost:1313/posts/travma/</link>
       <pubDate>Sat, 20 Dec 2025 12:00:00 +0300</pubDate>
-      <guid>http://localhost:62970/posts/travma/</guid>
-      <description>&lt;p&gt;Birleştirilmiş modül sayfası — Travma ve Acil Cerrahi. Aşağıda bu modüle ait alt dersler listelenmiştir. Her öğeye tıklayarak ilgili sayfaya gidebilirsiniz.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:62970/posts/travma/sok/&#34;&gt;Şok&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:62970/posts/travma/abdominal-travma/&#34;&gt;Abdominal travma&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:62970/posts/travma/kafa-travmalari/&#34;&gt;Kafa travmaları&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:62970/posts/travma/yaniklar/&#34;&gt;Yanıklar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;İsterseniz her alt dersin içeriğini bu klasöre yeni &lt;code&gt;index.md&lt;/code&gt; dosyaları ekleyerek genişletebilirsiniz.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/travma/</guid>
+      <description>&lt;p&gt;Birleştirilmiş modül sayfası — Travma ve Acil Cerrahi. Aşağıda bu modüle ait alt dersler listelenmiştir. Her öğeye tıklayarak ilgili sayfaya gidebilirsiniz.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/travma/sok/&#34;&gt;Şok&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/travma/abdominal-travma/&#34;&gt;Abdominal travma&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/travma/kafa-travmalari/&#34;&gt;Kafa travmaları&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/posts/travma/yaniklar/&#34;&gt;Yanıklar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;İsterseniz her alt dersin içeriğini bu klasöre yeni &lt;code&gt;index.md&lt;/code&gt; dosyaları ekleyerek genişletebilirsiniz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lecture 02: Akut Apandisit</title>
-      <link>http://localhost:62970/posts/lecture-02-appendicitis/</link>
+      <link>http://localhost:1313/posts/lecture-02-appendicitis/</link>
       <pubDate>Sat, 20 Dec 2025 09:00:00 +0300</pubDate>
-      <guid>http://localhost:62970/posts/lecture-02-appendicitis/</guid>
+      <guid>http://localhost:1313/posts/lecture-02-appendicitis/</guid>
       <description>Akut apandisit tanı ve tedavi süreçleri.</description>
     </item>
     <item>
       <title>Lecture 01: Genel Cerrahiye Giriş</title>
-      <link>http://localhost:62970/posts/lecture-01-introduction/</link>
+      <link>http://localhost:1313/posts/lecture-01-introduction/</link>
       <pubDate>Fri, 19 Dec 2025 09:00:00 +0300</pubDate>
-      <guid>http://localhost:62970/posts/lecture-01-introduction/</guid>
+      <guid>http://localhost:1313/posts/lecture-01-introduction/</guid>
       <description>Cerrahinin tarihsel gelişimi ve temel prensipleri.</description>
     </item>
     <item>
       <title>Genel Cerrahiye Önsöz</title>
-      <link>http://localhost:62970/posts/preface/</link>
+      <link>http://localhost:1313/posts/preface/</link>
       <pubDate>Thu, 18 Dec 2025 22:20:00 +0300</pubDate>
-      <guid>http://localhost:62970/posts/preface/</guid>
+      <guid>http://localhost:1313/posts/preface/</guid>
       <description>Bu yazı, 4. sınıf öğrencileri için Genel Cerrahi derslerine giriş niteliğinde bir önsöz sunar.</description>
     </item>
     <item>
       <title>Preface to General Surgery Course</title>
-      <link>http://localhost:62970/posts/firstpost/</link>
+      <link>http://localhost:1313/posts/firstpost/</link>
       <pubDate>Thu, 18 Dec 2025 20:57:00 +0300</pubDate>
-      <guid>http://localhost:62970/posts/firstpost/</guid>
+      <guid>http://localhost:1313/posts/firstpost/</guid>
       <description>&lt;p&gt;Welcome, 4th-year medical students, to your journey into &lt;strong&gt;General Surgery&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This course is designed to introduce you to the principles, techniques, and decision-making processes that define surgical practice. Our aim is not only to teach you the technical aspects of surgery but also to help you develop the clinical reasoning and professional mindset essential for patient care.&lt;/p&gt;&#xA;&lt;p&gt;In this preface, you will find:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The goals of the course&lt;/li&gt;&#xA;&lt;li&gt;Expectations for your participation&lt;/li&gt;&#xA;&lt;li&gt;Guidance on how to approach surgical cases&lt;/li&gt;&#xA;&lt;li&gt;Resources to support your learning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We hope this serves as a roadmap for your studies and inspires you to engage deeply with the material.&lt;/p&gt;</description>
     </item>
   </channel>
