@@ -36,7 +36,7 @@ jobs:
 
       - name: Build
         working-directory: adanacerrahi
-        run: hugo --minify --baseURL "https://morphomes.github.io/PORTAL/"
+        run: hugo --minify --baseURL "https://morphomes.github.io/portal/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
