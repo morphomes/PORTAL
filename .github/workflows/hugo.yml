@@ -42,6 +42,34 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: adanacerrahi/public
+          jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Set production baseURL
+        working-directory: ./adanacerrahi
+        run: |
+          echo 'baseURL = "https://morphomes.github.io/portal/"' > config.prod.toml
+
+      - name: Build
+        working-directory: ./adanacerrahi
+        run: hugo --minify --config config.prod.toml,config.toml
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./adanacerrahi/public
 
   deploy:
     needs: build
