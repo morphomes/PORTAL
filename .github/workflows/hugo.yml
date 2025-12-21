@@ -14,10 +14,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,21 +30,13 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - name: Build
-        working-directory: adanacerrahi
-        run: hugo --minify --baseURL "https://morphomes.github.io/portal/"
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: adanacerrahi/public
-
+      # ✅ SINGLE, CLEAN BUILD WITH CONFIG OVERRIDE (no trailing spaces!)
       - name: Set production baseURL
         working-directory: ./adanacerrahi
         run: |
           echo 'baseURL = "https://morphomes.github.io/portal/"' > config.prod.toml
 
-      - name: Build
+      - name: Build Hugo site
         working-directory: ./adanacerrahi
         run: hugo --minify --config config.prod.toml,config.toml
 
